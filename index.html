@@ -5,9 +5,23 @@
 <meta content="utf-8" http-equiv="encoding">
 	<title>Example</title>
 	<script src="./script.js"></script>
-	<script src="./app.js"></script>
+	
 </head>
 <body>
-	<h1 id="hello">Hello world!</h1>
+	<h1 id="hello" class="heading">Hello world!</h1>
+	<h2 id="sub-hello" class="h2-class">This is heading 2</h2>
+	<h2><a href="https://developer.mozilla.org/ru/docs/Web/Events" target="_blank">Another h2</a></h2>
+
+	<div class="controls">
+	  <button id="img-error" type="button">Generate image error</button>
+	  <img class="bad-img" />
+	</div>
+
+	<div class="event-log">
+	  <label>Event log:</label>
+	  <textarea readonly class="event-log-contents" rows="8" cols="30"></textarea>
+	</div>
+	
+	<script src="./app.js"></script>
 </body>
 </html>
