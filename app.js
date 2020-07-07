@@ -147,3 +147,49 @@
 
 
 //__________________________________________________________________
+// fetch('https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json')
+// .then((res) => {
+// 	return res.json();
+// })
+// .then((data) => {
+// 	console.log(data);
+// })
+
+// var n = 17;
+// binary_string = n.toString(2); // Вернет "10001"
+// octal_string = "0" + n.toString(8); // Вернет "021"
+// hex_string = "0x" + n.toString(16); // Вернет "0x11"
+// _________________________________________________________________
+
+// var n = 123456.789;
+// console.log(typeof n.toFixed(0)); // "123457"
+// console.log(n.toFixed(2)); // "123456.79"
+// console.log(n.toExponential(1)); // "1.2e+5"
+// console.log(n.toExponential(3)); // "1.235e+5"
+// console.log(n.toPrecision(4)); // "1.235e+5"
+// console.log(n.toPrecision(7)); // "123456.8"
+// _______________________________________________________________
+
+// console.log(parseInt("3 слепых мышки")); // Вернет 3
+// console.log(parseFloat("3.14 метров")); // Вернет 3.14
+// console.log(typeof parseInt("12.34")); // Вернет 12
+// console.log(parseInt("0xFF")); // Вернет 255
+// __________________________________________________________________
+
+// В качестве второго аргумента функция parseInt() может принимать основание
+// системы счисления. Корректными значениями являются числа в диапазоне от 2
+// до 36, например:
+console.log('parseInt("11", 2) – Вернет 3 (1*2 + 1):', parseInt("11", 2)); // Вернет 3 (1*2 + 1)
+console.log('parseInt("ff", 16) – Вернет 255 (15*16 + 15)', parseInt("ff", 16)); // 
+console.log('parseInt("zz", 36) – Вернет 1295 (35*36 + 35)', parseInt("zz", 36)); // 
+console.log('parseInt("077", 8) – Вернет 63 (7*8 + 7)', parseInt("077", 8)); // 
+console.log('parseInt("077", 10) – Вернет 77 (7*10 + 7)', parseInt("077", 10));// 
+
+console.log('parseInt("eleven") – Вернет NaN', parseInt("eleven"));// 
+console.log('parseFloat("$72.47") – Вернет NaN', parseFloat("$72.47"));// 
+console.log('5' === 5)
+
+x = 0;
+console.log(typeof x);
+let x_as_boolean = !!x; // -- преобразование в Boolean
+console.log(typeof x_as_boolean)
